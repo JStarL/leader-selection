@@ -1,0 +1,44 @@
+[
+    {
+        "name": "A",
+        "stake": 5.0,
+        "port": 14400,
+        "public_key": "this is A"
+        
+    },
+    {
+        "name": "B",
+        "stake": 1.2,
+        "port": 14401,
+        "public_key": "this is B"
+        
+    },
+    {
+        "name": "C",
+        "stake": 2.4,
+        "port": 14402,
+        "public_key": "this is C"
+        
+    },
+    {
+        "name": "D",
+        "stake": 10.0,
+        "port": 14403,
+        "public_key": "this is D"
+        
+    },
+    {
+        "name": "E",
+        "stake": 15.0,
+        "port": 14404,
+        "public_key": "this is E"
+        
+    },
+    {
+        "name": "F",
+        "stake": 9.0,
+        "port": 14405,
+        "public_key": "this is F"
+        
+    }
+]
