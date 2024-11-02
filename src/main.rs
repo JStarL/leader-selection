@@ -233,7 +233,8 @@ fn calculate_score(stake: &f64, random_float: &f64, rep: &u64, rounds_delay: &u3
     let rounds_delay_f64 = *rounds_delay as f64;
     // Stake should not be 0
     // if it is 0, then taking the log of that will result in inf
-    let tmp_stake: f64 = stake.clone() as f64;
+    let mut tmp_stake: f64 = stake.clone() as f64;
+    tmp_stake += 1.1;
     let score = tmp_stake.ln() * random_float * rep_f64.log10() * rounds_delay_f64.ln();
     score
 }
